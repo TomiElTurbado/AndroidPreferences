@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Android Preferences</string>
+    <string name="pref">Preferencias</string>
+    <string name="vol">Volumen</string>
+    <string name="soundexit">Salida de Sonido</string>
+    <string name="wifidispo">WIFI Activado</string>
+    <string name="opti_ons">Opciones</string>
+    <string name="sound">Sonido</string>
+    <string name="gendat">Datos Generales</string>
+    <string name="otdat">Otros Datos</string>
+    <string name="actson">Indicar nivel de volumen</string>
+    <string name="actsal">Seleccionar dispositivo para salida de sonido</string>
+    <string name="onsound">Activar Sonido</string>
+    <string name="kss">Qué sonido sonará</string>
+    <string name="turnsoundon">Activar sonido</string>
+    <string name="saveVol">Guardar Volumen</string>
+    <string name="getPref">Obtener Preferencias</string>
+    <string name="restDef">Reestablecer Valores por Defecto</string>
+    <string name="dispType">Tipo de dispositivo</string>
+    <string name="dispTypDes">Elige el tipo de dispositivo</string>
+</resources>

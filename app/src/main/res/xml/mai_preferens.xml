@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="DG"
+        android:title="@string/gendat">
+
+        <EditTextPreference
+            android:id="@+id/volOpt"
+            android:defaultValue="50"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/actson"
+            android:title="@string/vol" />
+        <ListPreference
+            android:entries="@array/dispositives"
+            android:entryValues="@array/dispositives_values"
+            android:key="list_preference_1"
+            android:summary="@string/actsal"
+            android:title="@string/soundexit" />
+        <ListPreference
+            android:entries="@android:array/phoneTypes"
+            android:entryValues="@android:array/phoneTypes"
+            android:key="list_preference_2"
+            android:summary="@string/dispTypDes"
+            android:title="@string/dispType" />
+        <SwitchPreference
+            android:id="@+id/wifiOpt"
+            android:defaultValue="false"
+            android:key="switch_preference_1"
+            android:title="@string/wifidispo" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="CB"
+        android:title="@string/otdat">
+        <PreferenceScreen
+            android:title="@string/opti_ons"
+            android:key="preferences2" >
+            <CheckBoxPreference
+                android:key="sonido"
+                android:title="@string/sound"
+                android:summary="@string/onsound" />
+            <RingtonePreference
+                android:key="sound_type"
+                android:title="@string/kss"
+                android:summary="@string/turnsoundon" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
